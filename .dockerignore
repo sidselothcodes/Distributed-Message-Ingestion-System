@@ -1,0 +1,9 @@
+.git
+.next
+node_modules
+venv
+__pycache__
+pgdata
+redis_data
+.env
+*.log

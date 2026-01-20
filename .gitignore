@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.db
+*.sqlite
+
+# Local Docker Data 
+pgdata/
+redis_data/
+
+# Frontend Build Output (Next.js)
+.next/
+out/
+
+# Docker Local Overrides
+docker-compose.override.yml
+docker-cloud.yml
+
+# Python/API specific logs
+logs/
+*.log
+celerybeat-schedule
+
+# Node/Frontend specific 
+node_modules/
+.npm
+.eslintcache
+
+# Secrets 
+.env*
+!.env.example
